@@ -15,7 +15,9 @@ public class StaticVsNonStatic {
 		System.out.println("Calling display() : "+b);	//static method will only access static variable
 	}
 
+	
 	void show() {
 		System.out.println("Calling show() : "+a+ " "+b);	//non-static method can access both static & non-static variable
 	}
+	
 }
